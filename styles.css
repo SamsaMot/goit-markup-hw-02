@@ -1,203 +1,223 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Базовые стили */
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
 }
 
+h1, h2, h3 {
+  margin-top: 0;
+  color: #2E2F42;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
 header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid #E7E9FC;
   background-color: #ffffff;
 }
 
-nav {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 24px 15px;
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-nav a {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
-  color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
-  text-transform: uppercase;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 40px;
-}
-
-nav ul a {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 16px;
-  transition: color 0.3s;
-}
-
-nav ul a:hover {
-  color: #4d5ae5;
-}
-
-address {
-  font-style: normal;
+  padding: 24px 32px;
   max-width: 1158px;
   margin: 0 auto;
-  padding: 8px 15px 24px;
 }
 
-address ul {
-  list-style: none;
+header nav > a {
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #4D5AE5;
+}
+
+header nav ul {
   display: flex;
   gap: 40px;
 }
 
-address a {
-  text-decoration: none;
+header nav ul a {
+  font-weight: 500;
+  color: #2E2F42;
+}
+
+header address {
+  font-style: normal;
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 32px;
+  max-width: 1158px;
+  margin: 0 auto;
+}
+
+header address ul {
+  display: flex;
+  gap: 40px;
+}
+
+header address a {
   color: #434455;
   font-size: 16px;
 }
 
-main section:first-of-type {
-  background-color: #2e2f42;
+/* Hero section */
+main > section:first-of-type {
+  background-color: #2E2F42;
   text-align: center;
   padding: 188px 0;
 }
 
-main section:first-of-type h1 {
+main > section:first-of-type h1 {
+  color: #FFFFFF;
   font-size: 56px;
   font-weight: 700;
-  color: #ffffff;
   max-width: 496px;
   margin: 0 auto 48px;
 }
 
-main section:first-of-type button {
-  background-color: #4d5ae5;
+main > section:first-of-type button {
+  padding: 16px 32px;
+  font-size: 16px;
+  background-color: #4D5AE5;
   color: #ffffff;
   border: none;
   border-radius: 4px;
-  padding: 16px 32px;
-  font-size: 16px;
-  font-weight: 500;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
-main section:first-of-type button:hover {
-  background-color: #404bbf;
-}
-
-main section:nth-of-type(2) {
+/* Benefits */
+main > section:nth-of-type(2) {
   padding: 120px 0;
 }
 
-main section:nth-of-type(2) h2 {
-  font-size: 36px;
+main > section:nth-of-type(2) h2 {
   text-align: center;
+  font-size: 36px;
   margin-bottom: 72px;
 }
 
-main section:nth-of-type(2) ul {
+main > section:nth-of-type(2) ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
+  gap: 24px;
   max-width: 1158px;
   margin: 0 auto;
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
 }
 
-main section:nth-of-type(2) h3 {
+main > section:nth-of-type(2) li h3 {
   font-size: 20px;
-  font-weight: 500;
   margin-bottom: 8px;
-  color: #2e2f42;
 }
 
-main section:nth-of-type(2) p {
-  font-size: 16px;
-  color: #434455;
-}
-
-main section:nth-of-type(3) {
-  background-color: #f4f4fd;
+/* Team */
+main > section:nth-of-type(3) {
+  background-color: #F4F4FD;
   padding: 120px 0;
 }
 
-main section:nth-of-type(3) h2 {
-  font-size: 36px;
+main > section:nth-of-type(3) h2 {
   text-align: center;
+  font-size: 36px;
   margin-bottom: 72px;
-  color: #2e2f42;
 }
 
-main section:nth-of-type(3) ul {
+main > section:nth-of-type(3) ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
+  gap: 24px;
   max-width: 1158px;
   margin: 0 auto;
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
 }
 
-main section:nth-of-type(3) li {
-  background-color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0px 2px 1px rgba(46,47,66,0.08),
-              0px 1px 1px rgba(46,47,66,0.16),
-              0px 1px 6px rgba(46,47,66,0.08);
+main > section:nth-of-type(3) li {
+  background-color: #FFFFFF;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px rgba(46,47,66,0.08),
+              0 1px 1px rgba(46,47,66,0.16),
+              0 1px 6px rgba(46,47,66,0.08);
   text-align: center;
   padding-bottom: 32px;
 }
 
-main section:nth-of-type(3) img {
-  margin-bottom: 32px;
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-main section:nth-of-type(3) h3 {
+main > section:nth-of-type(3) li h3 {
   font-size: 20px;
-  margin-bottom: 8px;
-  color: #2e2f42;
+  margin: 32px 0 8px;
 }
 
-main section:nth-of-type(3) p {
-  font-size: 16px;
-  color: #434455;
+/* Portfolio */
+main > section:nth-of-type(4) {
+  padding: 120px 0;
 }
 
+main > section:nth-of-type(4) h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 72px;
+}
+
+main > section:nth-of-type(4) ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 24px;
+  max-width: 1158px;
+  margin: 0 auto;
+}
+
+main > section:nth-of-type(4) li {
+  border: 1px solid #E7E9FC;
+  background-color: #FFFFFF;
+}
+
+main > section:nth-of-type(4) li h3 {
+  font-size: 20px;
+  margin: 32px 16px 8px;
+}
+
+main > section:nth-of-type(4) li p {
+  margin: 0 16px 32px;
+}
+
+/* Footer */
 footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
-  padding: 100px 15px;
+  background-color: #2E2F42;
+  color: #F4F4FD;
+  padding: 100px 0;
   text-align: left;
 }
 
 footer a {
   display: inline-block;
-  text-decoration: none;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 18px;
-  color: #4d5ae5;
+  text-transform: uppercase;
+  color: #4D5AE5;
   margin-bottom: 16px;
-  font-family: 'Raleway', sans-serif;
 }
 
 footer p {
   max-width: 264px;
+  margin: 0;
+  color: #F4F4FD;
   font-size: 16px;
 }
