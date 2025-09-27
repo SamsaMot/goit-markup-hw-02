@@ -1,3 +1,18 @@
+/* === Header === */
+.header {
+  background-color: #ffffff;
+}
+
+.nav {
+  justify-content: space-between;
+  max-width: 1158px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -12,7 +27,6 @@
 .logo-span {
   color: #2e2f42;
 }
-
 
 .nav-link {
   font-weight: 500;
@@ -32,6 +46,11 @@
   font-style: normal;
 }
 
+.contact-list {
+  list-style: none;
+  margin: 0;
+}
+
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
@@ -45,12 +64,12 @@
   color: #404bbf;
 }
 
+/* === Global === */
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
   margin: 0;
-  padding: 0;
   line-height: 1.5;
 }
 
@@ -61,7 +80,6 @@ h1, h2, h3 {
 
 ul {
   list-style: none;
-  padding: 0;
   margin: 0;
 }
 
@@ -71,70 +89,18 @@ a {
 }
 
 img {
-  display: block;
   max-width: 100%;
   height: auto;
 }
 
-header {
-  border-bottom: 1px solid #E7E9FC;
-  background-color: #ffffff;
-}
-
-header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 32px;
-  max-width: 1158px;
-  margin: 0 auto;
-}
-
-header nav > a {
-  font-weight: 800;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #4D5AE5;
-}
-
-header nav ul {
-  display: flex;
-  gap: 40px;
-}
-
-header nav ul a {
-  font-weight: 500;
-  color: #2E2F42;
-}
-
-header address {
-  font-style: normal;
-  display: flex;
-  justify-content: flex-end;
-  padding: 16px 32px;
-  max-width: 1158px;
-  margin: 0 auto;
-}
-
-header address ul {
-  display: flex;
-  gap: 40px;
-}
-
-header address a {
-  color: #434455;
-  font-size: 16px;
-}
-
-
-main .first {
+/* === First section === */
+.first {
   background-color: #2e2f42;
   text-align: center;
-  padding: 188px 0;
-   line-height: 1.07;
+  line-height: 1.07;
 }
 
-main .first .title {
+.first h1 {
   color: #FFFFFF;
   font-size: 56px;
   font-weight: 700;
@@ -143,129 +109,103 @@ main .first .title {
   line-height: 1.07;
 }
 
-main .first .button {
-  padding: 16px 32px;
+.first button {
   font-size: 16px;
   background-color: #4D5AE5;
   color: #ffffff;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em
-}
-main .first .button:hover{
-   background-color: #404BBF;
-}
-main .first .button:focus{
-   background-color: #404BBF;
+  letter-spacing: 0.04em;
 }
 
-
-
-main .second {
-  padding: 120px 0;
+.first button:hover,
+.first button:focus {
+  background-color: #404BBF;
 }
 
-main .second h2 {
+/* === Second section === */
+.second h2 {
   text-align: center;
   font-size: 36px;
   margin-bottom: 72px;
 }
 
-main .second ul {
-  display: grid;
+.second ul {
   grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
-  gap: 24px;
   max-width: 1158px;
   margin: 0 auto;
 }
 
-main .second li h3 {
+.second li h3 {
   font-size: 20px;
   margin-bottom: 8px;
 }
 
-/* Team */
-main .third {
+/* === Third section (Team) === */
+.third {
   background-color: #F4F4FD;
-  padding: 120px 0;
 }
 
-main .third h2 {
+.third h2 {
   text-align: center;
   font-size: 36px;
   margin-bottom: 72px;
 }
 
-main .third ul {
-  display: grid;
+.third ul {
   grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
-  gap: 24px;
   max-width: 1158px;
   margin: 0 auto;
 }
 
-main .third li {
+.third li {
   background-color: #FFFFFF;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px rgba(46,47,66,0.08),
-              0 1px 1px rgba(46,47,66,0.16),
-              0 1px 6px rgba(46,47,66,0.08);
   text-align: center;
-  padding-bottom: 32px;
 }
 
-main .third li h3 {
+.third li h3 {
   font-size: 20px;
   margin: 32px 0 8px;
 }
 
-/* Portfolio */
-main .forth {
-  padding: 120px 0;
-}
-
-main .forth h2 {
+/* === Fourth section (Portfolio) === */
+.forth h2 {
   text-align: center;
   font-size: 36px;
   margin-bottom: 72px;
 }
 
-main .forth ul {
-  display: grid;
+.forth ul {
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-  gap: 24px;
   max-width: 1158px;
   margin: 0 auto;
 }
 
-main .forth li {
+.forth li {
   border: 1px solid #E7E9FC;
   background-color: #FFFFFF;
 }
 
-main .forth li h3 {
+.forth li h3 {
   font-size: 20px;
   margin: 32px 16px 8px;
 }
 
-main .forth li p {
+.forth li p {
   margin: 0 16px 32px;
 }
 
-/* Footer */
-footer {
+/* === Footer === */
+.footer {
   background-color: #2E2F42;
   color: #F4F4FD;
-  padding: 100px 0;
   text-align: left;
 }
 
-footer a {
-  display: inline-block;
+.foot_logo {
   font-weight: 800;
   font-size: 18px;
   text-transform: uppercase;
@@ -273,7 +213,11 @@ footer a {
   margin-bottom: 16px;
 }
 
-footer p {
+.foot_span {
+  color: #F4F4FD;
+}
+
+.foot_par {
   max-width: 264px;
   margin: 0;
   color: #F4F4FD;
