@@ -95,18 +95,24 @@ a {
   background-color: #4d5ae5;
   color: #ffffff;
   border: none;
+  cursor: pointer;
 }
 
 .first-btn:hover,
 .first-btn:focus {
   background-color: #404bbf;
 }
-
-/* === Second section === */
 .second-title {
+  font-weight: 500;
   text-align: center;
   font-size: 36px;
   margin-bottom: 72px;
+  line-height: 1.2 ;
+  letter-spacing: 0.02em;
+}
+.second-text{
+  letter-spacing: 0.02em
+
 }
 
 .second-subtitle {
@@ -114,39 +120,56 @@ a {
   margin-bottom: 8px;
 }
 
-/* === Third section (Team) === */
+
 .third {
   background-color: #f4f4fd;
 }
 
 .third-title {
   text-align: center;
+  letter-spacing: 0.02em;
   font-size: 36px;
   margin-bottom: 72px;
+  text-transform: capitalize
+}
+.third-item{
+  background-color: #FFFFFF
 }
 
 .third-subtitle {
+  font-weight: 500;
+  line-height: 1.11;
   font-size: 20px;
   margin: 32px 0 8px;
+  line-height: 1.2;
+  letter-spacing: 0.02em
 }
 
 .third-text {
   margin-bottom: 32px;
+  letter-spacing: 0.02em
 }
 
-/* === Fourth section (Portfolio) === */
+
 .forth-title {
   text-align: center;
   font-size: 36px;
   margin-bottom: 72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 .forth-subtitle {
+  line-height: 1.2;
+  font-weight: 500;
   font-size: 20px;
   margin: 32px 16px 8px;
+  letter-spacing: 0.02em;
 }
 
 .forth-text {
+  letter-spacing: 0.02em;
   margin: 0 16px 32px;
 }
 
@@ -172,6 +195,7 @@ a {
 }
 
 .foot-par {
+  letter-spacing: 0.02em;
   max-width: 264px;
   margin: 16px 0 0;
   font-size: 16px;
