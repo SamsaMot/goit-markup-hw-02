@@ -73,7 +73,6 @@ a {
 .first {
   background-color: #2e2f42;
   text-align: center;
-  padding: 120px 0;
 }
 
 .first-title {
@@ -116,6 +115,9 @@ a {
 }
 
 .second-subtitle {
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   font-size: 20px;
   margin-bottom: 8px;
 }
@@ -130,13 +132,15 @@ a {
   letter-spacing: 0.02em;
   font-size: 36px;
   margin-bottom: 72px;
-  text-transform: capitalize
+  text-transform: capitalize;
+  line-height: 1.11;
 }
 .third-item{
   background-color: #FFFFFF
 }
 
 .third-subtitle {
+  
   font-weight: 500;
   line-height: 1.11;
   font-size: 20px;
