@@ -64,7 +64,7 @@
   color: #404bbf;
 }
 
-/* === Global === */
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -88,12 +88,9 @@ a {
   color: inherit;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 
-/* === First section === */
+
+
 .first {
   background-color: #2e2f42;
   text-align: center;
@@ -171,7 +168,7 @@ img {
   margin: 32px 0 8px;
 }
 
-/* === Fourth section (Portfolio) === */
+
 .forth h2 {
   text-align: center;
   font-size: 36px;
@@ -198,7 +195,7 @@ img {
   margin: 0 16px 32px;
 }
 
-/* === Footer === */
+
 .footer {
   background-color: #2E2F42;
   color: #F4F4FD;
