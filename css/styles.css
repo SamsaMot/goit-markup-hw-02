@@ -177,11 +177,9 @@ a {
   margin: 0 16px 32px;
 }
 
-/* === Footer === */
 .footer {
   background-color: #2e2f42;
   color: var(--cloud);
-  padding: 100px 0;
 }
 
 .foot-logo {
