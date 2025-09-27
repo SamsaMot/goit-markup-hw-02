@@ -69,7 +69,6 @@ a {
   color: #404bbf;
 }
 
-/* === First section === */
 .first {
   background-color: #2e2f42;
   text-align: center;
@@ -81,8 +80,6 @@ a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  max-width: 496px;
-  margin: 0 auto 48px;
 }
 
 .first-btn {
@@ -105,7 +102,6 @@ a {
   font-weight: 500;
   text-align: center;
   font-size: 36px;
-  margin-bottom: 72px;
   line-height: 1.2 ;
   letter-spacing: 0.02em;
 }
@@ -119,7 +115,6 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-size: 20px;
-  margin-bottom: 8px;
 }
 
 
@@ -131,7 +126,6 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   font-size: 36px;
-  margin-bottom: 72px;
   text-transform: capitalize;
   line-height: 1.11;
 }
@@ -144,13 +138,11 @@ a {
   font-weight: 500;
   line-height: 1.11;
   font-size: 20px;
-  margin: 32px 0 8px;
   line-height: 1.2;
   letter-spacing: 0.02em
 }
 
 .third-text {
-  margin-bottom: 32px;
   letter-spacing: 0.02em
 }
 
@@ -158,7 +150,6 @@ a {
 .forth-title {
   text-align: center;
   font-size: 36px;
-  margin-bottom: 72px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -168,13 +159,12 @@ a {
   line-height: 1.2;
   font-weight: 500;
   font-size: 20px;
-  margin: 32px 16px 8px;
   letter-spacing: 0.02em;
 }
 
 .forth-text {
   letter-spacing: 0.02em;
-  margin: 0 16px 32px;
+
 }
 
 .footer {
@@ -198,8 +188,6 @@ a {
 
 .foot-par {
   letter-spacing: 0.02em;
-  max-width: 264px;
-  margin: 16px 0 0;
   font-size: 16px;
   color: var(--cloud);
 }
