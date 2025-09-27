@@ -1,0 +1,227 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Raleway', sans-serif;
+}
+/* Сброс */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--slate);
+  background-color: var(--white);
+  line-height: 1.5;
+}
+
+/* Хедер */
+header {
+  border-bottom: 1px solid var(--cornflower);
+  background-color: var(--white);
+}
+
+nav {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 24px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--iris);
+  font-family: var(--second-family);
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+nav ul a {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav ul a:hover {
+  color: var(--iris);
+}
+
+/* Контакты */
+address {
+  font-style: normal;
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 8px 15px 24px;
+}
+
+address ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+address a {
+  text-decoration: none;
+  color: var(--slate);
+  font-size: 16px;
+}
+
+/* Hero секция */
+main section:first-of-type {
+  background-color: var(--navy-blue);
+  text-align: center;
+  padding: 188px 0;
+}
+
+main section:first-of-type h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--white);
+  max-width: 496px;
+  margin: 0 auto 48px;
+}
+
+main section:first-of-type button {
+  background-color: var(--iris);
+  color: var(--white);
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+main section:first-of-type button:hover {
+  background-color: var(--ocean);
+}
+
+/* Блок преимуществ */
+main section:nth-of-type(2) {
+  padding: 120px 0;
+}
+
+main section:nth-of-type(2) h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+main section:nth-of-type(2) ul {
+  max-width: 1158px;
+  margin: 0 auto;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+main section:nth-of-type(2) h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: var(--navy-blue);
+}
+
+main section:nth-of-type(2) p {
+  font-size: 16px;
+  color: var(--slate);
+}
+
+/* Команда */
+main section:nth-of-type(3) {
+  background-color: var(--cloud);
+  padding: 120px 0;
+}
+
+main section:nth-of-type(3) h2 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 72px;
+  color: var(--navy-blue);
+}
+
+main section:nth-of-type(3) ul {
+  max-width: 1158px;
+  margin: 0 auto;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+main section:nth-of-type(3) li {
+  background-color: var(--white);
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px rgba(46,47,66,0.08),
+              0px 1px 1px rgba(46,47,66,0.16),
+              0px 1px 6px rgba(46,47,66,0.08);
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+main section:nth-of-type(3) img {
+  margin-bottom: 32px;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+main section:nth-of-type(3) h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: var(--navy-blue);
+}
+
+main section:nth-of-type(3) p {
+  font-size: 16px;
+  color: var(--slate);
+}
+
+/* Подвал */
+footer {
+  background-color: var(--navy-blue);
+  color: var(--cloud);
+  padding: 100px 15px;
+  text-align: left;
+}
+
+footer a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--iris);
+  margin-bottom: 16px;
+  font-family: var(--second-family);
+}
+
+footer p {
+  max-width: 264px;
+  font-size: 16px;
+}
