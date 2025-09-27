@@ -82,13 +82,13 @@ header address a {
 }
 
 /* Hero section */
-main > section:first-of-type {
+main .first {
   background-color: #2E2F42;
   text-align: center;
   padding: 188px 0;
 }
 
-main > section:first-of-type h1 {
+main .first h1 {
   color: #FFFFFF;
   font-size: 56px;
   font-weight: 700;
@@ -96,7 +96,7 @@ main > section:first-of-type h1 {
   margin: 0 auto 48px;
 }
 
-main > section:first-of-type button {
+main .first button {
   padding: 16px 32px;
   font-size: 16px;
   background-color: #4D5AE5;
@@ -107,17 +107,17 @@ main > section:first-of-type button {
 }
 
 /* Benefits */
-main > section:nth-of-type(2) {
+main .second {
   padding: 120px 0;
 }
 
-main > section:nth-of-type(2) h2 {
+main .second h2 {
   text-align: center;
   font-size: 36px;
   margin-bottom: 72px;
 }
 
-main > section:nth-of-type(2) ul {
+main .second ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
   gap: 24px;
@@ -125,24 +125,24 @@ main > section:nth-of-type(2) ul {
   margin: 0 auto;
 }
 
-main > section:nth-of-type(2) li h3 {
+main .second li h3 {
   font-size: 20px;
   margin-bottom: 8px;
 }
 
 /* Team */
-main > section:nth-of-type(3) {
+main .third {
   background-color: #F4F4FD;
   padding: 120px 0;
 }
 
-main > section:nth-of-type(3) h2 {
+main .third h2 {
   text-align: center;
   font-size: 36px;
   margin-bottom: 72px;
 }
 
-main > section:nth-of-type(3) ul {
+main .third ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(264px, 1fr));
   gap: 24px;
@@ -150,7 +150,7 @@ main > section:nth-of-type(3) ul {
   margin: 0 auto;
 }
 
-main > section:nth-of-type(3) li {
+main .third li {
   background-color: #FFFFFF;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px rgba(46,47,66,0.08),
@@ -160,23 +160,23 @@ main > section:nth-of-type(3) li {
   padding-bottom: 32px;
 }
 
-main > section:nth-of-type(3) li h3 {
+main .third li h3 {
   font-size: 20px;
   margin: 32px 0 8px;
 }
 
 /* Portfolio */
-main > section:nth-of-type(4) {
+main .forth {
   padding: 120px 0;
 }
 
-main > section:nth-of-type(4) h2 {
+main .forth h2 {
   text-align: center;
   font-size: 36px;
   margin-bottom: 72px;
 }
 
-main > section:nth-of-type(4) ul {
+main .forth ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   gap: 24px;
@@ -184,17 +184,17 @@ main > section:nth-of-type(4) ul {
   margin: 0 auto;
 }
 
-main > section:nth-of-type(4) li {
+main .forth li {
   border: 1px solid #E7E9FC;
   background-color: #FFFFFF;
 }
 
-main > section:nth-of-type(4) li h3 {
+main .forth li h3 {
   font-size: 20px;
   margin: 32px 16px 8px;
 }
 
-main > section:nth-of-type(4) li p {
+main .forth li p {
   margin: 0 16px 32px;
 }
 
